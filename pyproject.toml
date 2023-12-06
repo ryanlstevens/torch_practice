@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "torch-practice"
+version = "0.1.0"
+description = "Pytorch practice sets"
+authors = ["ryanlstevens <ryan.louis.stevens@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.13"
+torch = "^2.1.0"
+numpy = "^1.26.0"
+jupyter = "^1.0.0"
+torchvision = "^0.16.0"
+matplotlib = "^3.8.0"
+pandas = "^2.1.1"
+seaborn = "^0.13.0"
+plotly = "^5.17.0"
+scipy = "^1.11.3"
+loguru = "^0.7.2"
+onnx = "^1.15.0"
+torchview = "^0.2.6"
+graphviz = "^0.20.1"
+spacy = "^3.7.2"
+torchtext = "^0.16.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
